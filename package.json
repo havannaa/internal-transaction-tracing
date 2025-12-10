@@ -1,0 +1,15 @@
+{
+  "name": "internal-transaction-tracing",
+  "version": "1.0.0",
+  "description": "Deploy necessary contracts that generates an internal transaction upon call.",
+  "main": "deploy_contracts.js",
+  "scripts": {
+    "deploy": "node deploy_contracts.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "solc": "^0.8.19",
+    "web3": "^1.10.0"
+  }
+}
+
