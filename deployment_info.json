@@ -1,10 +1,10 @@
 {
-  "envNetwork": "bsc",
-  "rpcUrl": "https://data-seed-prebsc-1-s2.bnbchain.org:8545",
+  "envNetwork": "anvil",
+  "rpcUrl": "http://127.0.0.1:8545",
   "deployer": "0xbA25b445e55d75D4a401aA55820527623E8b74d3",
   "receiver": {
     "contractName": "ReceiverContract",
-    "address": "0x6e079B247d7c4F4Ff761f4FB910892C126eC2901",
+    "address": "0x7502AA168001C1C2582070Ffe494b9ec75012607",
     "abi": [
       {
         "inputs": [],
@@ -233,12 +233,12 @@
         "payable": true
       }
     ],
-    "transactionHash": "0x5070f31360dcad5eca13d18d836c37ac5eb82c9fd72f887c6a5a77a8c06fb975",
-    "blockNumber": 77651609
+    "transactionHash": "0x968c8eb2b0083586a53ddd4128c3f863f52e96ef376e09eb870d9241950a1c68",
+    "blockNumber": 9
   },
   "caller": {
     "contractName": "ContractCaller",
-    "address": "0x2D6CBF6c8f546F15FD602c864361C61F210bCB7B",
+    "address": "0xb7827b83EBab447f64D3d1b9d3027B5B75CFB14d",
     "abi": [
       {
         "inputs": [
@@ -383,8 +383,8 @@
         "payable": true
       }
     ],
-    "transactionHash": "0x8504add84a77b8809928a8f2d0b54cb711165d465da2dfcd22fa99f9832e64b5",
-    "blockNumber": 77651613
+    "transactionHash": "0xcfb6cbebf32a69d4ef4b3f64283f6dd2578596796c64bf9fa6d71d68a7ff68a4",
+    "blockNumber": 10
   },
-  "timestamp": "2025-12-10T08:15:14.711Z"
+  "timestamp": "2025-12-10T08:31:00.123Z"
 }
